@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+            <div class="col-4 bg-light">
+                <p class="search-header my-1">Search for a city</p>
+                <form id="submitForm" class="input-group mb-3">
+                    <input type="text" class="form-control" id="cityInput" placeholder="City Name">
+                    <!-- <div class="input-group-append"> -->
+                        <button id="submitBtn" class="btn btn-primary" >Search</button>
+                    <!-- </div> -->
+                </form>
+                <button class="btn btn-primary mb-3" type="button" id="clear-history">Clear history</button>
+                <form id="history"></form>
+            </div>
+    
+      <!-- <div class="card text-center" style="width: 18rem;">
+        <form id="submitForm" class="card-body">
+          <h5 class="card-title">Search for a City</h5>
+          <input type="text" class="form-control" id="cityInput" placeholder="City Name">
+          <button id="submitBtn" class="btn btn-primary">Search</button>
+        </form>
+      </div> -->
+      <div class="col-8">
+                <div class="row mr-0">
+                    <div class="col-12 border border-dark m-3 rounded">
+                        <div class="row">
+                            <div class="col-12">
+                                <span id="city-name" class="city-name align-middle"></span>
+                                <img id="current-pic" src="placeholder" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="temperature"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="humidity"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p id="wind-speed"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                <p id="UV-index"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      </div>
+        </div>
+      </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>  
+</body>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+<script src= "./assets/script.js"></script>
+</html>
