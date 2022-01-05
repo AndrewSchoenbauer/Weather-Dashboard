@@ -9,3 +9,7 @@ Technologies Utilized:
     For this application, I used the Open Weather Map data API. I used three different API requests to grab the current weather, the UV index, and the five day forecast. For my styling of the page, I used Bootstrap almost exclusivly. 
 
 Screenshot of Project:
+![weather-dashboard](https://user-images.githubusercontent.com/95504111/148159940-b0cb4a38-fa2b-4937-b507-2b39d8c4ce7d.PNG)
+
+Live URL:
+https://andrewschoenbauer.github.io/Weather-Dashboard/
