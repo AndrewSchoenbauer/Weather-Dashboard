@@ -1,5 +1,5 @@
 # Weather-Dashboard
-Weather Dashboard
+Weather Dashboard:
     This application allows you to search for any city in the world, and recieve the current weather, including: tempurature, wind speed, humidity, UV index, and current conditions. It also will give you the forecast for the next five days. It will also store your search history in the local storage and show your search history on the page. You can click on any of the cities you have recently searched for, and it will bring up the weather for that city again. I also added a button to clear your history, which will remove them from your screen, and from your local storage.
 
 Challenges:
